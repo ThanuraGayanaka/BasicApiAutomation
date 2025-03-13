@@ -1,10 +1,11 @@
 package data;
 
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
 
 public class TestdataProvider {
 
-    @BeforeClass(name ="zipCodes")
+    @DataProvider(name ="zipCodes")
 
 
     public Object [][] getZipCodeData(){
